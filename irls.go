@@ -1,18 +1,18 @@
 package main
 
 import (
-	"os/exec"
-	"syscall"
-	"io/ioutil"
 	"fmt"
+	"github.com/Songmu/prompter"
 	"github.com/cldmnky/f5er/f5"
 	"github.com/cldmnky/irulesync/config"
 	"github.com/cldmnky/irulesync/irule"
 	"github.com/codegangsta/cli"
 	"gopkg.in/yaml.v2"
+	"io/ioutil"
 	"log"
 	"os"
-	"github.com/Songmu/prompter"
+	"os/exec"
+	"syscall"
 )
 
 const version string = "0.1.0"
@@ -87,8 +87,8 @@ func main() {
 	}
 	app.Commands = []cli.Command{
 		{
-			Name: "push",
-			Usage: "push configuration to BigIP",
+			Name:    "push",
+			Usage:   "push configuration to BigIP",
 			Aliases: []string{"s"},
 			Action: func(c *cli.Context) error {
 				fmt.Println("hmmm", c.Args().First())
@@ -96,8 +96,8 @@ func main() {
 			},
 			Subcommands: []cli.Command{
 				{
-					Name: "irules",
-					Usage: "push irules to BigIP",
+					Name:    "irules",
+					Usage:   "push irules to BigIP",
 					Aliases: []string{"r"},
 					Action: func(c *cli.Context) error {
 						if c.Args().Present() {
@@ -118,8 +118,8 @@ func main() {
 			},
 			Subcommands: []cli.Command{
 				{
-					Name: "config",
-					Usage: "pull configuration only",
+					Name:    "config",
+					Usage:   "pull configuration only",
 					Aliases: []string{"c"},
 					Action: func(c *cli.Context) error {
 						conf, err := config.LoadConfigFile(filename)
@@ -144,8 +144,8 @@ func main() {
 					},
 				},
 				{
-					Name: "irules",
-					Usage: "pull iRules only",
+					Name:    "irules",
+					Usage:   "pull iRules only",
 					Aliases: []string{"r"},
 					Action: func(c *cli.Context) error {
 						conf, err := config.LoadConfigFile(filename)
@@ -219,9 +219,9 @@ func pushIrule(localfn string) error {
 							// diff returns 1 when diff, 0 when nodiff and > 1 for errors
 							fmt.Printf("%s\n", out)
 							// ask for confirmation
-							if ! force {
+							if !force {
 								ack = false
-								if prompter.YN("Push changes to" + r.Remote + "?", true) {
+								if prompter.YN("Push changes to"+r.Remote+"?", true) {
 									ack = true
 								}
 							}

@@ -1,13 +1,13 @@
 package irule
 
 import (
-	"github.com/cldmnky/f5er/f5"
-	"log"
-	"encoding/json"
-	"io/ioutil"
-	"strings"
 	"bytes"
-	)
+	"encoding/json"
+	"github.com/cldmnky/f5er/f5"
+	"io/ioutil"
+	"log"
+	"strings"
+)
 
 type LBRule f5.LBRule
 
@@ -39,7 +39,6 @@ func UpdateIruleFile(irulefile, iruledest string, bigip *f5.Device) *f5.LBRule {
 	}
 	return res
 }
-
 
 func JSONMarshal(v interface{}, unescape bool) ([]byte, error) {
 	b, err := json.Marshal(v)

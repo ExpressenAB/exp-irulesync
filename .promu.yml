@@ -1,0 +1,25 @@
+go: 1.6.2
+repository:
+    path: github.com/ExpressenAB/exp-irulesync
+build:
+    flags: -a -tags 'netgo static_build'
+    binaries:
+        - name: irls
+    files:
+        - LICENSE
+        - NOTICE
+crossbuild:
+    platforms:
+        - linux/amd64
+        - linux/386
+        - darwin/amd64
+        - darwin/386
+        - windows/amd64
+        - windows/386
+        - netbsd/amd64
+        - netbsd/386
+        - linux/arm
+        - linux/arm64
+        - netbsd/arm
+        - linux/ppc64
+        - linux/ppc64le
