@@ -1,0 +1,50 @@
+{
+	"ImportPath": "github.com/expressenab/exp-irulesync",
+	"GoVersion": "go1.5",
+	"GodepVersion": "v66",
+	"Deps": [
+		{
+			"ImportPath": "github.com/Songmu/prompter",
+			"Comment": "0.1.0-4-gf49666b",
+			"Rev": "f49666b0047d12850875d771340e1d862d9e7a0c"
+		},
+		{
+			"ImportPath": "github.com/cldmnky/f5er/f5",
+			"Rev": "fd2c43774040b9a8bc19f43a521a5c1440206bbd"
+		},
+		{
+			"ImportPath": "github.com/cldmnky/irulesync/config",
+			"Rev": "d7c7079836799632e6850b02e467e6e8f86f8589"
+		},
+		{
+			"ImportPath": "github.com/cldmnky/irulesync/irule",
+			"Rev": "d7c7079836799632e6850b02e467e6e8f86f8589"
+		},
+		{
+			"ImportPath": "github.com/codegangsta/cli",
+			"Comment": "v1.16.0-15-g75b97d0",
+			"Rev": "75b97d09d9f5792ff997e249a330a3ca28f8b537"
+		},
+		{
+			"ImportPath": "github.com/jmcvetta/napping",
+			"Comment": "v3.1.0",
+			"Rev": "5be8267a453ffa5b80c4af7fa4cfc1d04d3cfd5c"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-isatty",
+			"Rev": "56b76bdf51f7708750eac80fa38b952bb9f32639"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh/terminal",
+			"Rev": "b76c864ef1dca1d8f271f917c290cddcce3d9e0d"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "b776ec39b3e54652e09028aaaaac9757f4f8211a"
+		},
+		{
+			"ImportPath": "gopkg.in/yaml.v2",
+			"Rev": "a83829b6f1293c91addabc89d0571c246397bbf4"
+		}
+	]
+}
