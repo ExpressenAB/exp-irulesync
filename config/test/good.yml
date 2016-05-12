@@ -1,0 +1,9 @@
+vips:
+- name: /Common/test-vip-80
+destination: /Common/192.168.1.108%1:80
+pool: /Common/common-test-pool-1337
+rules:
+- local: ""
+  remote: /Common/not-managed-irule
+- local: "./irule/test/managed-irule.tcl"
+  remote: /Common/managed-irule
