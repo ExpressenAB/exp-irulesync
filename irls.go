@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
+	"github.com/ExpressenAB/exp-irulesync/config"
+	"github.com/ExpressenAB/exp-irulesync/irule"
 	"github.com/Songmu/prompter"
 	"github.com/cldmnky/f5er/f5"
 	"github.com/codegangsta/cli"
-	"github.com/expressenab/exp-irulesync/config"
-	"github.com/expressenab/exp-irulesync/irule"
 	"gopkg.in/yaml.v2"
 	"io/ioutil"
 	"log"
