@@ -1,0 +1,75 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "Nv/dFKYusZACXomJXahK2DBbvF8=",
+			"path": "github.com/Songmu/prompter",
+			"revision": "f49666b0047d12850875d771340e1d862d9e7a0c",
+			"revisionTime": "2015-07-27T04:03:49Z"
+		},
+		{
+			"checksumSHA1": "Bi6TOs8YdXBG+MrmsdG6VxInPgA=",
+			"path": "github.com/cldmnky/f5er/f5",
+			"revision": "fd2c43774040b9a8bc19f43a521a5c1440206bbd",
+			"revisionTime": "2016-05-12T12:46:04Z"
+		},
+		{
+			"checksumSHA1": "mT7Ktz0BjsOI4ri9ywfltkIljCg=",
+			"path": "github.com/codegangsta/cli",
+			"revision": "75b97d09d9f5792ff997e249a330a3ca28f8b537",
+			"revisionTime": "2016-05-05T00:04:10Z"
+		},
+		{
+			"checksumSHA1": "5rPfda8jFccr3A6heL+JAmi9K9g=",
+			"origin": "github.com/stretchr/testify/vendor/github.com/davecgh/go-spew/spew",
+			"path": "github.com/davecgh/go-spew/spew",
+			"revision": "6cb3b85ef5a0efef77caef88363ec4d4b5c0976d",
+			"revisionTime": "2016-05-04T13:01:55Z"
+		},
+		{
+			"checksumSHA1": "0w8HWybeXBxQpRA7ToEZ8L8n+4g=",
+			"path": "github.com/jmcvetta/napping",
+			"revision": "5be8267a453ffa5b80c4af7fa4cfc1d04d3cfd5c",
+			"revisionTime": "2016-04-03T19:31:46Z"
+		},
+		{
+			"checksumSHA1": "NkbetqlpWBi3gP08JDneC+axTKw=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "56b76bdf51f7708750eac80fa38b952bb9f32639",
+			"revisionTime": "2015-12-11T00:06:21Z"
+		},
+		{
+			"checksumSHA1": "zKKp5SZ3d3ycKe4EKMNT0BqAWBw=",
+			"origin": "github.com/stretchr/testify/vendor/github.com/pmezard/go-difflib/difflib",
+			"path": "github.com/pmezard/go-difflib/difflib",
+			"revision": "6cb3b85ef5a0efef77caef88363ec4d4b5c0976d",
+			"revisionTime": "2016-05-04T13:01:55Z"
+		},
+		{
+			"checksumSHA1": "Bn333k9lTndxU3D6n/G5c+GMcYY=",
+			"path": "github.com/stretchr/testify/assert",
+			"revision": "6cb3b85ef5a0efef77caef88363ec4d4b5c0976d",
+			"revisionTime": "2016-05-04T13:01:55Z"
+		},
+		{
+			"checksumSHA1": "N5fb5y92DFIP+wUhi1rSwPp9vyk=",
+			"path": "golang.org/x/crypto/ssh/terminal",
+			"revision": "1e61df8d9ea476e2e1504cd9a32b40280c7c6c7e",
+			"revisionTime": "2016-04-30T21:10:58Z"
+		},
+		{
+			"checksumSHA1": "CoRxz7vk573Zu/UcMS4PzpAsv3w=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "b776ec39b3e54652e09028aaaaac9757f4f8211a",
+			"revisionTime": "2016-04-21T02:29:30Z"
+		},
+		{
+			"checksumSHA1": "+OgOXBoiQ+X+C2dsAeiOHwBIEH0=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "a83829b6f1293c91addabc89d0571c246397bbf4",
+			"revisionTime": "2016-03-01T20:40:22Z"
+		}
+	],
+	"rootPath": "github.com/expressenab/exp-irulesync"
+}
