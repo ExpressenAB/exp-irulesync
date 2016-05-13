@@ -9,12 +9,6 @@
 			"revisionTime": "2015-07-27T04:03:49Z"
 		},
 		{
-			"checksumSHA1": "Bi6TOs8YdXBG+MrmsdG6VxInPgA=",
-			"path": "github.com/cldmnky/f5er/f5",
-			"revision": "fd2c43774040b9a8bc19f43a521a5c1440206bbd",
-			"revisionTime": "2016-05-12T12:46:04Z"
-		},
-		{
 			"checksumSHA1": "mT7Ktz0BjsOI4ri9ywfltkIljCg=",
 			"path": "github.com/codegangsta/cli",
 			"revision": "75b97d09d9f5792ff997e249a330a3ca28f8b537",
@@ -47,6 +41,12 @@
 			"revisionTime": "2016-05-04T13:01:55Z"
 		},
 		{
+			"checksumSHA1": "gT7bY7o4JwaNFS36XIQRRY/suVI=",
+			"path": "github.com/pr8kerl/f5er/f5",
+			"revision": "2a2d0768ea26904fbe5bcf4bba169d385772cca7",
+			"revisionTime": "2016-05-12T21:48:16Z"
+		},
+		{
 			"checksumSHA1": "Bn333k9lTndxU3D6n/G5c+GMcYY=",
 			"path": "github.com/stretchr/testify/assert",
 			"revision": "6cb3b85ef5a0efef77caef88363ec4d4b5c0976d",
@@ -71,5 +71,5 @@
 			"revisionTime": "2016-03-01T20:40:22Z"
 		}
 	],
-	"rootPath": "github.com/expressenab/exp-irulesync"
+	"rootPath": "github.com/ExpressenAB/exp-irulesync"
 }

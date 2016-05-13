@@ -5,7 +5,7 @@ import (
 	"github.com/ExpressenAB/exp-irulesync/config"
 	"github.com/ExpressenAB/exp-irulesync/irule"
 	"github.com/Songmu/prompter"
-	"github.com/cldmnky/f5er/f5"
+	"github.com/pr8kerl/f5er/f5"
 	"github.com/codegangsta/cli"
 	"gopkg.in/yaml.v2"
 	"io/ioutil"

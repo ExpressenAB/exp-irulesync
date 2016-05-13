@@ -3,7 +3,7 @@ package config
 import (
 	"crypto/tls"
 	"fmt"
-	"github.com/cldmnky/f5er/f5"
+	"github.com/pr8kerl/f5er/f5"
 	"github.com/stretchr/testify/assert"
 	"log"
 	"net/http"
