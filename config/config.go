@@ -4,10 +4,10 @@ import (
 	//"encoding/json"
 	//"fmt"
 	"github.com/pr8kerl/f5er/f5"
+	"gopkg.in/yaml.v2"
 	"io/ioutil"
 	"log"
 	"path/filepath"
-	"gopkg.in/yaml.v2"
 )
 
 type Rule struct {
