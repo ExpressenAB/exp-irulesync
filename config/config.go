@@ -3,14 +3,10 @@ package config
 import (
 	//"encoding/json"
 	//"fmt"
-	"github.com/cldmnky/f5er/f5"
+	"github.com/pr8kerl/f5er/f5"
 	"io/ioutil"
 	"log"
-	//"net/url"
 	"path/filepath"
-	//"regexp"
-	//"strings"
-	//"time"
 	"gopkg.in/yaml.v2"
 )
 

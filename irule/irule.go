@@ -3,7 +3,7 @@ package irule
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/cldmnky/f5er/f5"
+	"github.com/pr8kerl/f5er/f5"
 	"io/ioutil"
 	"log"
 	"strings"
