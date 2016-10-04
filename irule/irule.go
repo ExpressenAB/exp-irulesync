@@ -29,7 +29,7 @@ func UpdateIruleFile(irulefile, iruledest string, bigip *f5.Device) *f5.LBRule {
 	if err != nil {
 		log.Fatalf("Error reading file: %s, %s", err, irule)
 	}
-	lbrule.ApiAnonymous = "priority 100\n" + strings.TrimSpace(string(irule[:]))
+	lbrule.ApiAnonymous = strings.TrimSpace(string(irule[:]))
 
 	rule, err = JSONMarshal(lbrule, true)
 	b := bytes.NewBuffer(rule)
